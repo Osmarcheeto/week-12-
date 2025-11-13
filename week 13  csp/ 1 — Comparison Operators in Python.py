@@ -33,3 +33,26 @@ print(a <= b)   # True
 
 # practice problem :
 # where a student must check if their score is greater than or equal to 60 to pass a test.# The password must be at least 8 characters long and contain at least one digit.password = "mypassword1"
+c = 7
+e = 8
+print(c == e)   # False
+print(c != e)   # True
+print(c > e)    # False
+print(c < e)    # True
+print(c >= e)   # False
+print(c <= e)   # True
+
+# Create a simple grade-checking condition:
+score = 75  # Change this value to test different scores
+if score >= 60:
+    print("Pass")
+else:
+    print("Fail")
+
+# practice problem :
+# where a student must check if their score is greater than or equal to 60 to pass a test.# The password must be at least 8 characters long and contain at least one digit.password = "mypassword1"
+password = "mypassword1"  # Update with a different password if needed
+if len(password) >= 8 and any(char.isdigit() for char in password):
+    print("Password is valid")
+else:
+    print("Password is invalid")
