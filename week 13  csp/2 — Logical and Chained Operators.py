@@ -22,7 +22,15 @@ print(1 < x < 20)         # True
 # Practice Problems:
 
 # Write an expression that checks if a number is between 50 and 100 (inclusive).
-
+print("A")  # 90–100
+elif 80 <= score <= 89:
+print("B")  # 80–89
+elif 70 <= score <= 79:
+print("C")  # 70–79
+elif 60 <= score <= 69:
+print("D")  # 60–69
+else:
+print("F")  # below 60
 # Write an expression that checks if a number is NOT equal to 0 and greater than 10.
 
 # Use chained comparison to check if 3 < 4 < 5.
