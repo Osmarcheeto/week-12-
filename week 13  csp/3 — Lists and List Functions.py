@@ -21,6 +21,45 @@
 # print(numbers)
 
 
+
+list_of_fruits =  ["apple", "banana", "cherry", "date"]
+print(list_of_fruits)
+print(type(list_of_fruits)) #<class 'list'>
+#Accesing items in a list 
+print(list_of_fruits[0]) #apple
+print(list_of_fruits[1]) #banana
+print(list_of_fruits[-1]) #date
+print(list_of_fruits[1:3]) # banana cherry
+# reversing a list
+list_of_fruits.reverse()
+print(list_of_fruits)  #date cherry banana apple
+print(list_of_fruits [::-1]) # apple bananan cherry date
+list_of_fruits.append("elderberry") # add items to the end of the list
+print(list_of_fruits)
+list_of_fruits.append("starfruit")
+list_of_fruits.append("guava")
+list_of_fruits.append("kumquats")
+print(list_of_fruits)
+list_of_fruits.extend(["mango","honeydrew","strawberry"])
+print(list_of_fruits)
+popped_item = list_of_fruits.pop()
+print(popped_item)
+print(list_of_fruits)
+list_of_fruits.insert(1, "blueberry")
+print(list_of_fruits)
+list_of_fruits.remove("banana")
+print(list_of_fruits)
+list_of_fruits.insert(3, "pineapple")
+list_of_fruits.sort()
+print(list_of_fruits)
+#NUMBERS
+list_of_items = list(range(1, 1010101))
+print(list_of_items)
+print(len(list_of_items)) #1000
+list_of_items.extend(range(1001,2001))
+print(len(list_of_items))
+
+
 # # Practice Problems:
 
 # # Create a list with 5 of your favorite foods.
