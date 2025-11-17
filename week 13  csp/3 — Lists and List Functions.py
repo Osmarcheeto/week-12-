@@ -60,6 +60,28 @@ list_of_items.extend(range(1001,2001))
 print(len(list_of_items))
 
 
+
+set1 = {1, 2, 3, 4, 5}
+set2 = {"apples", "banana", "cherry}
+print(set1)
+print(set2)
+print(type(set1))
+set_with_duplicates = {1, 2, 3, 4, 5}
+print(set_with_duplicates)
+print(3 in set1)
+print(6 in set1)
+tuple1 = (1, 2, 3, 4, 5)
+tuple2 = ("apples", "banana", "cherry")
+print(tuple1)
+print(tuple2)
+print(type(tuple1))
+social_security_number = (123444, 444756, 879236)
+# Practice Problems:
+
+
+
+
+
 # # Practice Problems:
 
 # # Create a list with 5 of your favorite foods.
